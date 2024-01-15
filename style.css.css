@@ -1,0 +1,835 @@
+      *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;}
+        body{
+            background-color: rgb(30 41 59);
+            /* animation: background-color 15s linear infinite; */
+  
+        }
+
+        html,body{
+            padding: 0;
+            margin: 0;
+            width:100%;
+            height:100%;
+            text-align: center;
+        }
+    
+
+        @keyframes background-color{
+            0%{
+                background-color:rgb(45, 213, 255) ;
+
+            }
+            25%{
+                background-color:rgb(255, 135, 22)  ;
+            }
+            50%{
+                background-color:rgb(45, 213, 255) ;
+
+            }
+            75%{
+                background-color: rgb(217, 64, 255);
+            }
+            100%{
+                background-color:rgb(45, 213, 255) ;
+
+            }
+        }
+
+  
+
+
+
+nav{
+    background-color:rgb(45, 213, 255);
+    width:100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-image{
+    border:3px solid white;
+    border-radius:100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:10px 10px 10px 10px;
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.display-none li a{
+    display: none;
+}
+
+.slide-bar{
+    position: fixed;
+    top:0;
+    right:0;
+    height:100vh;
+    width:250px;
+    z-index: 999;
+    display:none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 251, 251, 0.187);
+    backdrop-filter: blur(2px);
+}
+
+.another-image{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(45, 213, 255) ;   
+}
+  .inside-image{
+    width:25%;
+    background-color:black;
+    padding: 30px 30px 20px 0px;
+} 
+ .about{
+    padding: 100px 80px 0px 30px;
+    /* font-size: small; */
+} 
+ .head-about{
+    color: white;
+    border-radius: 10rem;
+    position: absolute;
+    padding:10px 20px 10px 20px;
+    margin: 30px 1px 0px 260px;
+    background-color: black; 
+    display: flex;
+    gap: 15px;
+    }
+
+    @media screen and (max-width:600px) {
+
+         
+    }
+        
+
+@media screen and (max-width:600px) {
+    
+    .none{
+        display:none;
+    }
+     .parent{
+        font-size:9px;
+     }
+
+    #element{
+        font-size:small;
+     }
+
+     .image{
+            
+            border:1px solid rgb(45, 213, 255); }
+
+     .anchors{
+            color: aliceblue;
+            display: flex;
+            justify-content:space-evenly;
+            font-size:small;
+            gap: 1px;}      
+
+     .anchors a{
+            text-decoration: none;
+            font-size:medium;
+            color: white}
+            
+            .another-image{
+                display:block;
+                flex-direction: column;
+                align-items: center ;
+                overflow: hidden;
+            }
+        
+            .inside-image{
+                width:100%;
+            }
+        
+            .about{
+                /* display:column; */
+                justify-content: space-around;
+                font-size: small;
+                padding: 100px 30px 0px 30px;}
+        
+                .head-about{
+                text-align: center;
+                margin:0px;
+                top: 1057px;
+                left: -77px;
+                }
+
+                .list-parent {
+                    width: -webkit-fill-available;
+                    text-align-last: left;
+                    margin: 0px 16rem 0px -157px;
+
+                }
+                .list-parent{
+                    left:-8rem;
+                    position:absolute;
+                    color:white;
+                    font-size:2rem ;
+                }
+            .lines{
+                height: 0.7rem;
+            }
+            .container{
+                width:-4px;
+                flex-direction:column ;
+                align-items: center;
+            }
+            .professional-head{
+                top:2650px;
+            }
+            .faqs,.research,.navigate,.Resources,.help-center{
+                text-align: left;
+            }
+            .black-theme,footer{
+                margin:2px 2px 2px 0px;
+            }
+        
+}
+
+        .parent{
+            margin-top:6rem;
+            text-align: center;
+            font-size:auto;
+            color: aliceblue;
+        }
+        .image{
+            margin:18px 0px 0px 0px ;
+            border: 7px solid rgb(45, 213, 255); 
+            /* border-radius:10rem ;    */
+            animation:change infinite 5s linear ;         
+        }
+       
+        .portfolio{
+            border: 3px solid ;
+           }
+
+           .anchors{
+            color: aliceblue;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin-left:1rem;
+            justify-content: center;
+            font-size:medium;
+            gap: 1px;}
+
+        .anchors a{
+            text-decoration: none;
+            font-size:large;
+            padding: 1px 20px 2px 12px;
+            color: white;
+            
+        }
+        .anchors a:hover{
+         transition:2s;
+         color:rgb(45, 213, 255) ;
+         border: 2px solid white;        
+        }
+        #element{
+            font-size:large;
+            color: rgb(45, 213, 255) ;
+            font-weight: bold;
+        }
+        .button-box {
+            font-size: 1rem;
+            color: white;
+            border: 3.2px solid rgb(45, 213, 255);
+            background-color: black;
+
+            text-align: center;
+            width:12rem;
+            height:2rem;
+            cursor:pointer;}      
+        
+    .another-image{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: rgb(45, 213, 255) ;   
+    }
+      .inside-image{
+        width:25%;
+        background-color:black;
+        padding: 30px 30px 20px 0px;
+    } 
+     .about{
+        padding: 100px 80px 0px 30px;
+        /* font-size: small; */
+    } 
+     .head-about{
+        color: white;
+        border-radius: 10rem;
+        position: absolute;
+        padding:10px 20px 10px 20px;
+        margin: 30px 1px 0px 260px;
+        background-color: black; 
+        display: flex;
+        gap: 15px;
+        }
+
+        .head-about-second{
+            color:rgb(45, 213, 255) ;
+        }
+        .skill-head{
+            letter-spacing:2px;
+            color: white;
+            text-align: center;
+            font-size:3rem;       
+        }
+        .skill-second-head{
+            color:rgb(45, 213, 255) ;
+        }
+        .Technical-head{
+            color: white;
+            text-align: center;
+            font-size:1.8rem;
+            text-decoration: underline;
+            text-underline-offset:10px;
+        }
+        .list-parent{
+            left:13rem;
+            position:absolute;
+            color:white;
+            font-size:2rem ;
+        }
+        .icon-size{
+            width:5rem;
+            height:5rem;
+        }
+        .container{
+            color: white;
+            gap:30px;
+            display: flex;
+            justify-content: center;
+            /* padding:75px 60px 0px 0px; */
+            margin:15rem 0px 0px 0px;
+        }
+        .professional-head{
+            display:flex;
+            position: absolute;
+            font-size:1.8rem;
+            text-align: center;
+            text-decoration: underline;
+            text-underline-offset: 10px;
+        }
+        ul,li{
+            padding:15px 0 ;
+            list-style: none;
+        }
+        .lines{
+            width:30rem;
+            height:.8rem;
+            overflow: hidden;
+            /* border:4px solid cyan; */
+            border-radius: 2rem;
+            background-color: aliceblue;
+        }
+        .under-color{
+            padding-top:1.5px;
+            width: 35rem;
+            height:.7rem;
+            border-radius: 2rem;
+            background-color: cyan;
+        }
+        .under-color1{
+            padding-top:1.5px;
+            width: 27rem;
+            height: 0.7rem;
+            border-radius: 3rem;
+            background-color:rgb(45, 213, 255) ;;
+            transition: all 1s;
+            animation:animate-first linear 1 3s; 
+        }
+        @keyframes animate-first{
+              0%{
+                width:0;
+              } 
+              100%{
+                width:90%;
+              }       
+        }
+        .under-color2{
+            padding-top:1.5px;
+            width: 25rem;
+            height: 0.7rem;
+            border-radius: 3rem;
+            background-color:rgb(45, 213, 255) ;
+            transition: all 1s;
+            animation:animate-second linear 1 4s;
+        }
+        @keyframes animate-second{
+            0%{
+                width:0;
+              } 
+              100%{
+                width:80%;
+              }       
+        }
+        .under-color3{
+            padding-top:1.5px;
+            width:20rem;
+            height: 0.7rem;
+            border-radius: 3rem;
+            background-color:rgb(45, 213, 255) ;;
+            transition: all 1s;
+            animation:animate-third linear 1 5s; 
+        }
+        @keyframes animate-third{
+            0%{
+                width:0;
+              } 
+              100%{
+                width:70%;
+              }       
+        }
+        .under-color4{
+            padding-top:1.5px;
+            width:28rem;
+            height: 0.7rem;
+            border-radius: 3rem;
+            background-color:rgb(45, 213, 255) ;;
+            transition: all 1s;
+            animation:animate-fourth linear 1 6s; 
+        }
+        @keyframes animate-fourth{
+            0%{
+                width:0;
+              } 
+              100%{
+                width:60%;
+              } 
+            }      
+        .under-color5{
+            padding-top:1.5px;
+            width:22rem;
+            height: 0.8rem;
+            border-radius:3rem;
+            background-color:rgb(45, 213, 255) ;;
+            transition: all 1s;
+            animation:animate-fifth linear 1 7s; 
+        }
+        @keyframes animate-fifth{
+            0%{
+                width:0;
+              } 
+              100%{
+                width:50%;
+              } 
+            }
+            .circle-tag,.second-circle{
+                width:50%;
+                height:170px;
+                margin-bottom: 10px;
+                position: relative;
+            } 
+            .circle-tag,.second-circle svg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-90deg);
+                width: 120px;
+                height: 100px;
+            }  
+            .circles{
+                stroke-width: 10;
+                stop-color: black;
+                stroke-dasharray: 502;
+                stroke-dashoffset:502;
+                stroke-linecap: round;
+                animation: rotate-bar 1s linear forwards;
+            }  
+             @keyframes rotate-bar{
+                100%{
+                    stroke-dashoffset: -1;
+                }
+             }
+             .circles{
+                margin-top:10rem;
+                stroke-width: 5;
+                stroke:aqua;
+                fill: transparent;
+                stroke-dasharray: 502;
+             }
+             
+             .circle1{animation: animate-1 1s linear forwards;}
+             .circle2{animation: animate-2 1s linear forwards;}
+             .circle3{animation: animate-3 1s linear forwards;}
+             .circle4{animation: animate-4 1s linear forwards;}
+
+             @keyframes animate-1{
+                100%{
+                    stroke-dashoffset:50;
+                }
+             }
+             @keyframes animate-2{
+                100%{
+                    stroke-dashoffset:175;
+                }
+             }
+             @keyframes animate-3{
+                100%{
+                    stroke-dashoffset:125;
+                }
+             }
+             @keyframes animate-4{
+                100%{
+                    stroke-dashoffset:75;
+                }
+             }
+         
+              
+        
+             .pehla{
+                stroke-dasharray: 490;
+                font-size: 1.5rem;
+             }
+             .dosra{
+
+                stroke-dasharray: 450;
+                font-size: 1.5rem;
+             }
+             .teesra{
+                stroke-dasharray: 430;
+                font-size: 1.5rem;
+             }
+             .chotha{
+                stroke-dasharray: 460;
+                font-size: 1.5rem;
+                
+             }
+             .circles svg {
+                align-items: center;
+                height:10rem;
+             }
+
+            footer{
+                width:118rem;
+                height:15rem;
+                background-color:rgb(45, 213, 255);
+                width: 100%;}
+
+.footer-email{
+    position: absolute;
+    left:2rem;
+    margin-top:1rem;
+}
+.text{
+    padding:4px 4px 2px 4px ;
+}
+.email-content{
+    color: black;
+    font-size:13px;
+    font-family: sans-serif;
+}
+.subscribe-button{
+  position: absolute;
+  background-color:black ;
+  color: white;
+  padding:2px 10px 4.2px 10px;
+  left:20rem;
+  margin-top:1rem;
+  
+}
+.footer-text{
+    margin-left:28rem;
+    margin-top:1rem;
+    font-family: sans-serif;
+    font-size:1rem;
+    position:absolute;
+    color: black;
+}
+
+
+#last-layout{
+    background-color:rgb(45, 213, 255);
+    height:45px;
+    padding:60px 0px 2px 0px ;
+   
+
+}
+
+.material-container{
+    display: flex;
+    justify-content: center;
+    gap:45px;
+    cursor: pointer;
+}
+
+.material-container:hover{
+    text-decoration: underline;
+}
+
+.faqs,.navigate,.Resources,.help-center,.research{
+      padding:0px 10px 0px 10px;
+      background-color:rgb(45, 213, 255);
+}
+
+.whatsapp-info{
+    display:inline-flex;
+    padding:35px 0px 0px 0px;
+}
+
+
+
+@media screen and (max-width:584px) {
+    .head-about{ margin: 10px 1px 0px 243px;}
+    .lines {
+        width: 25rem;}
+        .whatsapp-info{
+            padding:5px 0px 5px 0px; 
+        }
+}
+
+
+
+
+@media screen and (max-width:540px) {
+    .head-about{     margin: -15px 1px 0px 226px;}
+    .lines {
+        width: 25rem;}
+
+        .whatsapp-info{
+            padding:5px 0px 5px 0px; 
+        }
+}
+
+
+
+@media screen and (max-width:512px) {
+    .head-about{margin: -31px 1px 0px 213px;
+                     }
+
+                     .lines {
+                        width: 20rem;
+                        height:0.6rem;}
+
+                        
+                .about{
+                    padding: 95px 26px 0px 30px;
+                }
+
+                .whatsapp-info{
+                    padding:5px 0px 5px 0px; 
+                }
+
+                }
+
+
+
+@media screen and (max-width:490px) {
+    body{
+        text-align: center;
+    }
+    .list-parent {
+        left:15rem;}
+    
+    .head-about{margin:-60px 1px 0px 201px;
+                padding: 5px 10px 5px 10px;}
+                .lines {
+                    width: 18rem;
+                    height:0.6rem;}
+
+                    .about{
+                        padding:70px 26px 0px 30px;
+                    }
+                    
+                .whatsapp-info{
+                    padding:5px 0px 5px 0px; 
+                }
+}
+
+
+@media screen and (max-width:460px) {
+    .head-about{margin: -95px 1px 0px 190px;
+                padding: 5px 10px 5px 10px;}
+}
+
+
+@media screen and (max-width:412px) {
+    .head-about{margin: -110px 0px 0px 190px;
+                padding:5px 10px 5px 10px;
+                font-size:18px;}
+
+                .footer-email{
+                    position: absolute;
+                    left:1rem;
+                    margin-top:1rem;
+                }
+                .text{
+                    padding:3px 2px 0px 2px ;
+                }
+                .email-content{
+                    color: black;
+                    font-size:12px;
+                }
+
+                .subscribe-button{
+                    position: absolute;
+                    background-color:black ;
+                    color: white;
+                    padding:0px 4px 3px 4px;
+                    left:18rem;
+                    margin-top:1rem;
+                    
+                  }
+
+                  
+                .whatsapp-info{
+                    padding:5px 0px 5px 0px; 
+                }
+}
+@media screen and (max-width:360px){
+    
+    .head-about{margin:-130px 0px 0px 155px;
+        padding:5px 10px 5px 10px;
+        font-size:18px;}
+
+        .list-parent {
+            left:12rem;}
+
+            
+            .whatsapp-info{
+                padding:5px 0px 5px 0px; 
+            }
+}
+
+
+
+
+
+
+@media screen and (max-width:365px){
+
+    .head-about{margin:-150px 0px 0px 167px;
+        padding:5px 10px 5px 10px;
+        font-size:18px;}
+
+    
+    .footer-email{
+        position: absolute;
+        left:1rem;
+        margin-top:1rem;
+    }
+    .text{
+        padding:3px 0px 0px 0px ;
+    }
+    .email-content{
+        color: black;
+        font-size:12px;
+    }
+
+    .subscribe-button{
+        position: absolute;
+        background-color:black ;
+        color: white;
+        padding:0px 2px 3px 2px;
+        left:15rem;
+        margin-top:1rem;
+        
+      }
+}       
+
+
+
+
+
+@media screen and (max-width:320px) {
+    .head-about{margin: -94px 1px 0px 145px;
+                padding:5px 10px 5px 10px;}
+                .list-parent {
+                    left:12rem;}
+
+                    .professional-head{
+                        font-size:1.5rem;
+                        margin:135px 15px 0px 19px;
+                    }
+
+                    .footer-email{
+                        position: absolute;
+                        left:1rem;
+                        margin-top:1rem;
+                    }
+                    .text{
+                        padding:3px 0px 0px 0px ;
+                    }
+                    .email-content{
+                        color: black;
+                        font-size:12px;
+                    }
+    
+                    .subscribe-button{
+                        position: absolute;
+                        background-color:black ;
+                        color: white;
+                        padding:0px 2px 3px 2px;
+                        left:15rem;
+                        margin-top:1rem;
+                        
+                      }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    html,body{
+        padding: 0;
+        margin: 0;
+    }
+    .material-container{
+        display: block;
+        overflow-y: scroll;
+    }
+    #last-layout{
+        height:290%;
+    }
+    .black-theme{
+        margin-top:25rem;
+    position: relative;
+    }
+    .footer-text{
+        margin-left: 13rem;
+        margin-top:6.9rem ;
+    }
+}
+
+
+.black-theme{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    padding:50px 20px 30px 20px ;
+    gap:20px;
+}
+
+
+
+
+
+
+@media screen and (max-width:780px) {
+.black-theme{
+    display: block;
+}
+}
+
+
